@@ -1,71 +1,69 @@
 @charset "utf-8";
+
 @import "normalize";
+@import "grid-settings";
+@import "bourbon";
+@import "neat";
+@import "locations";
 
 .content {
-max-width: 860px;
-margin: 40px auto;
+	max-width: 860px;
+	min-height: 900px;
+	margin: 40px auto;
 }
 
-.content h2 {
-color: #C32F34;
+h2 {
+	color: #C32F34;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	background-color: darken(red, 10%);
+	color: lighten(red, 35%);
 }
 
 .logo-link {
-flex-grow: 1
+	flex-grow: 1
 }
 
 .logo-link img {
-max-width: 50px;
+	max-width: 50px;
 }
 
 header {
-align-content: center;
-background-color: rgba(46,48,58,0.96);
-display: flex;
-padding: 10px 20px 5px 20px;
+	align-content: center;
+	background-color: rgba(46,48,58,0.96);
+	display: flex;
+	padding: 10px 20px 5px 20px;
 }
 
 nav {
-flex-grow: 3;
+	flex-grow: 3;
 }
 
 nav a, .contact a {
-color: #fff;
+	color: #fff;
 }
 
 nav ul {
-display: flex;
-align-items: center;
-justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 nav li {
-list-style-type: none;
-display: inline;
-margin-right: 20px;
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
 }
 
 .contact {
-flex-grow: 1;
-margin-top: 16px;
+	flex-grow: 1;
+	margin-top: 16px;
 }
 
 .contact a {
-float: right;
-}
-
-
-
-
-
-.location-card {
-width: 250px;
-border: 1px solid #ddd;
-border-radius: 2px;
-padding: 5px;
-margin-bottom: 10px;
-}
-
-.location-card img {
-max-width: 100%;
+	float: right;
 }
