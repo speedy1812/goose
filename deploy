@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-
-bundle exec middleman build --clean
-bundle exec middleman s3_sync
