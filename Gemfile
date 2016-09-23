@@ -12,3 +12,4 @@ gem 'middleman-livereload'
 gem "middleman-dotenv"
 gem "middleman-s3_sync"
 gem "unf"
+gem "mime-types", "~> 3.0"
